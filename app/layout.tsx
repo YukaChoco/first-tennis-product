@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { Mochiy_Pop_One } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const mochiyPopOne = Mochiy_Pop_One({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={mochiyPopOne.className}>{children}</body>
     </html>
   );
 }
