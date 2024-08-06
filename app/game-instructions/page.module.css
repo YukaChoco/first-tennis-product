@@ -1,8 +1,25 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+}
+.h1{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  
+}
+.h2{
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  text-align: center;
+  padding: 3rem;
+
+}
+.h3{
+  align-items: center;
+  text-align: center;
+  padding: 7rem;
+}
+.tannisball{
+  position: fixed;
+  top:50%;
 }
