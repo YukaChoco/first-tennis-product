@@ -6,3 +6,30 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.target{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: none;
+  border: 10px solid #87C8AF;
+  border-radius: 50%;
+}
+.target2{
+  height: 50px;
+  width: 50px;
+  background-color: #87C8AF;
+  border-radius: 50%;
+}
+.container{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  left:0;
+  bottom: 0;
+  right:0;
+}
