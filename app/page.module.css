@@ -4,24 +4,34 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  background:no-repeat center url("/テニスコート.svg");
+  background: no-repeat center url("/テニスコート.svg");
 }
 
-.h1{
+.h1 {
   position: fixed;
-  top: 40%;
+  top: 30%;
+  font-size: 6em;
+  color: #E8EF23;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 400;
 }
 
-.p{
-  position:fixed;
+.decolationh1{
+  position: fixed;
+  top: 30%;
+  font-size: 6em;
+  color: #87C8AF;
+  -webkit-text-stroke: 25px #87C8AF;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 900;
+}
+
+.p {
+  position: fixed;
   top: 550px;
 }
-.hiyoko{
+
+.hiyoko {
   position: fixed;
-  top:10px;
+  top: 10px;
 }
-
-
-
-
-
