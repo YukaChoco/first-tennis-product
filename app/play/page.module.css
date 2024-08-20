@@ -33,3 +33,8 @@
   bottom: 0;
   right:0;
 }
+.hiyoko{
+  position: absolute;
+  top: -100px;
+  left: 50px;
+}
