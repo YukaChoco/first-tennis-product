@@ -19,6 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=M+PLUS+1p&family=M+PLUS+2:wght@100..900&family=Mochiy+Pop+One&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={mochiyPopOne.className}>{children}</body>
     </html>
   );
