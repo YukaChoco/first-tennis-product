@@ -13,7 +13,7 @@ body {
 body {
   color: #444746;
   background: #D4E7E0;
-  font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Mochiy Pop One", sans-serif !important;
 }
 
 @media (prefers-color-scheme: dark) {
