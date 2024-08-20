@@ -1,7 +1,20 @@
+'use client';
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === " ") {
+        console.log("spaceされました");
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
   return (
     <main className={styles.main}>
      <div className={styles.container}>
