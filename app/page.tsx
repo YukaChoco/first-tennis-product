@@ -2,22 +2,22 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Enter") {
         console.log("Enterされました");
-      }
-      if (event.key === "p") {
-        console.log("pがおされました");
+        router.push("/game-instructions");
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [router]);
   return (
     <main className={styles.main}>
     <div className={styles.decolationh1} role="presentation">
@@ -35,7 +35,6 @@ export default function Home() {
      　width={200}
        height={150}
      />
-     <a href="/game-instructions">link</a>
     </main>
   );
 }
