@@ -29,6 +29,8 @@
 .p {
   position: fixed;
   top: 550px;
+  font-size: 2rem;
+  font-family: "Mochiy Pop One", sans-serif;
 }
 
 .hiyoko {
